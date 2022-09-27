@@ -1,0 +1,8 @@
+var 宣告時會給一個 undefined
+let/const 暫時死區 宣告變數前使用變數的話會出現錯誤 Uncaught ReferenceError: Cannot access 'name' before initialization
+
+var 全域 初始化可不給予值，可再給予值覆蓋
+let 區域 初始化可不給予值，可再給予值覆蓋
+const 區域 初始化給予值，不可再給予值覆蓋
+
+建議如果可以使用 const盡量使用

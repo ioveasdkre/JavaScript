@@ -1,1 +1,0 @@
-Variable	宣告變數
